@@ -4,26 +4,18 @@
 	<title>Emily Hu</title>
 	<link rel="stylesheet" href="assets/style.css">
     <link href="https://fonts.googleapis.com/css?family=Muli" rel="stylesheet">
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js">
-    </script> 
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script> 
     <script src = "assets/js/script.js"></script>
 </head>
 <body>
-	<nav id="sidebar-container">
-		<ul>
-			<li class="sidebar-item">Home</li>
-			<li class="sidebar-item">About</li>
-			<li class="sidebar-item">Projects</li>
-		</ul>	
-	</nav>
 	<div id="page-container">
 		<div id="landing">
 			<div id="sf">
 			</div>
 			<div id="header">Hi! I'm Emily. Nice to meet you!</div>
-			<div class="start">Let's Go!</div>
+			<a href="#about-container"><div class="start">Let's Go!</div></a>
 		</div>
-		<a href="#about-page"><div id="about-container">
+		<div id="about-container">
 			<div id="polaroid"></div>
 			<div class="about-item" id="pic-container">
 					<div id="me-pic"></div>
@@ -32,32 +24,30 @@
 				<div class="sub-header">Introducing...Me:</div>
 				<p>Hi there! My name is Emily, and I am a first year EECS major at UC Berkeley. When it comes to CS, my interests lie in the full stack, whether it be web development, big data, or machine learning. When I'm not fervently typing on my laptop, I really enjoy hiking, exploring the magical city of Berkeley, trying delicious foods, discovering coffee shops, and traveling the world. Additionally, I am a proud member of the engineering sorority, Phi Sigma Rho, for which I am an executive officer. I also work as a programming tutor for a great program called Breakout Mentors, whose focus is on making programming an individualized and engaging experience.</p>
 			</div>
-			<div id="proj-start">Last thing...</div>
-		</div></a>
+			<a href="#project-container"><div class="proj-start">Last thing...</div></a>
+		</div>
 		<div id="project-container">
 			<div id="proj-background"></div>
 			<div id="header-container">
 				<div id="project-header">Presenting: Three Picture Links</div>
-				<div id="sub">At Treehacks, some friends and I made threepics.com! For this project, I designed the front end and make mock ups for each page using HTML/CSS. Check out how it works in the carousel!</div>
-				<!-- <a href="http://threepics.com">
-				<div id="diy">Try it out yourself!</div></a> -->
+				<div id="sub">At Treehacks, some friends and I made a visual link shortener! For this project, I designed the front end and make mock ups for each page using HTML/CSS. Check out how it works in the carousel and visit the site at http://threepics.com</div>
 			</div>
 			<div id="carousel-container">
 				<div id="carousel">
 					<div class="carousel-item">
-						<img src="assets/img/step1.png" width="940px" height="500px" />
+						<img src="assets/img/step1.png" width="960px" height="500px" />
 					</div>
 					<div class="carousel-item">
-						<img src="assets/img/step2.png" width="940px" height="500px" />
+						<img src="assets/img/step2.png" width="960px" height="500px" />
 					</div>
 					<div class="carousel-item">
-						<img src="assets/img/step3.png" width="940px" height="500px" />
+						<img src="assets/img/step3.png" width="960px" height="500px" />
 					</div>
 					<div class="carousel-item">
-						<img src="assets/img/step4.png" width="940px" height="500px" />
+						<img src="assets/img/step4.png" width="960px" height="500px" />
 					</div>
 					<div class="carousel-item">
-						<img src="assets/img/step5.png" width="940px" height="500px" />
+						<img src="assets/img/step5.png" width="960px" height="500px" />
 					</div>
 				</div>
 				<div id="carousel-prev" class="c-button">
@@ -67,7 +57,7 @@
                         <img class="img-scaled" src="assets/img/forward.png" width="15px" height="15px"/>
                     </div>
 			</div>
-			<div id="modal-container">
+			<!-- <div id="modal-container">
 				<div id="modal-overlay"></div>
 					<div id="modal-box">
 						<div id="modal-header">Login</div>
@@ -80,7 +70,7 @@
 					<div class="login-button">Submit</div>
 			</div>
 		</div>
-		<div id="contact">Contact Me!</div>
+		<div id="contact">Contact Me!</div> -->
 		</div>
 	</div>
 </body>
