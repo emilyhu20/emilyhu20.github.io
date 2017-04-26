@@ -2,9 +2,9 @@
 <html lang = "en-US">
 <head>
 	<title>Emily Hu</title>
-	<link rel="stylesheet" href="assets/css/style.css">
-    <link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet">
-    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js">
+	<link rel="stylesheet" href="assets/style.css">
+    <link href="https://fonts.googleapis.com/css?family=Muli" rel="stylesheet">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js">
     </script> 
     <script src = "assets/js/script.js"></script>
 </head>
@@ -17,51 +17,53 @@
 		</ul>	
 	</nav>
 	<div id="page-container">
-		<section id="landing">
+		<div id="landing">
+			<div id="sf">
+			</div>
 			<div id="header">Hi! I'm Emily. Nice to meet you!</div>
-			<div id="start">Let's Go!</div>
-			<div id="background">
-				<img src="assets/img/background.jpg" />
+			<div class="start">Let's Go!</div>
+		</div>
+		<a href="#about-page"><div id="about-container">
+			<div id="polaroid"></div>
+			<div class="about-item" id="pic-container">
+					<div id="me-pic"></div>
 			</div>
-		</section>
-		<section id="about-container">
-			<div id="pic-container">
-				<div id="me-pic"><img src="assets/img/me.jpg" /></div>
-			</div>
-			<div id="bio-container">
+			<div class="about-item" id="bio-container">
 				<div class="sub-header">Introducing...Me:</div>
-				<p>Hi there! My name is Emily, and I am a first year EECS major at UC Berkeley. When it comes to CS, my interests lie in the full stack, whether it be web development, big data, or machine learning. When I'm not fervently typing on my laptop, I really enjoy hiking, exploring the magical city of Berkeley, trying delicious foods, discovering coffe shops, and traveling the world. Additionally, I am a proud member of the engineering sorority, Phi Sigma Rho, for which I am an executive officer. I also work as a programming tutor for a great program called Breakout Mentors, whose focus is on making programming an individualized and engaging experience.</p>
+				<p>Hi there! My name is Emily, and I am a first year EECS major at UC Berkeley. When it comes to CS, my interests lie in the full stack, whether it be web development, big data, or machine learning. When I'm not fervently typing on my laptop, I really enjoy hiking, exploring the magical city of Berkeley, trying delicious foods, discovering coffee shops, and traveling the world. Additionally, I am a proud member of the engineering sorority, Phi Sigma Rho, for which I am an executive officer. I also work as a programming tutor for a great program called Breakout Mentors, whose focus is on making programming an individualized and engaging experience.</p>
 			</div>
-			<div id="project-start">Last thing...</div>
-		</section>
-		<section id="project-container">
+			<div id="proj-start">Last thing...</div>
+		</div></a>
+		<div id="project-container">
+			<div id="proj-background"></div>
 			<div id="header-container">
-				<div class="header">At Treehacks, some friends and I made threepics.com! Check out how it works in the carousel!</div>
-				<a href="threepics.com">Try it out yourself!</a>
+				<div id="project-header">Something Cool: Three Picture Links</div>
+				<div id="sub">At Treehacks, some friends and I made threepics.com! Check out how it works in the carousel!</div>
+				<a href="http://threepics.com">Try it out yourself!</a>
 			</div>
 			<div id="carousel-container">
 				<div id="carousel">
 					<div class="carousel-item">
-						<img src="assets/img/step1.png" />
+						<img src="assets/img/step1.png" width="940px" height="500px" />
 					</div>
 					<div class="carousel-item">
-						<img src="assets/img/step2.png" />
+						<img src="assets/img/step2.png" width="940px" height="500px" />
 					</div>
 					<div class="carousel-item">
-						<img src="assets/img/step3.png" />
+						<img src="assets/img/step3.png" width="940px" height="500px" />
 					</div>
 					<div class="carousel-item">
-						<img src="assets/img/step4.png" />
+						<img src="assets/img/step4.png" width="940px" height="500px" />
 					</div>
 					<div class="carousel-item">
-						<img src="assets/img/step5.png" />
+						<img src="assets/img/step5.png" width="940px" height="500px" />
 					</div>
 				</div>
-				<div id="carousel-prev">
-                        <img class="img-scaled" src="assets/img/forward.png" />
+				<div id="carousel-prev" class="c-button">
+                        <img class="img-scaled" src="assets/img/forward.png" width="20px" height="20px" />
                     </div>
-                    <div id="carousel-next">
-                        <img class="img-scaled" src="assets/img/backward.png" />
+                    <div id="carousel-next" class="c-button">
+                        <img class="img-scaled" src="assets/img/backward.png" width="20px" height="20px"/>
                     </div>
 			</div>
 			<div id="modal-container">
@@ -77,8 +79,8 @@
 					<div class="login-button">Submit</div>
 			</div>
 		</div>
-		<div>Contact Me!</div>
-		</section>
+		<div id="contact">Contact Me!</div>
+		</div>
 	</div>
 </body>
 </html>
